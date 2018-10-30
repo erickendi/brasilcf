@@ -144,7 +144,7 @@ if [ -z "$JAVACMD" ] ; then
       JAVACMD="$JAVA_HOME/jre/sh/java"
     else
       JAVACMD="$JAVA_HOME/bin/java"
-    fi
+    fi 
   else
     JAVACMD="`which java`"
   fi
